@@ -106,10 +106,46 @@ line-height: normal;
 }
 .card__box{
     display: flex;
-    align-items: center;
+
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 .card{
     margin: 0px 20px;
+}
+footer{
+    display: flex;
+
+    justify-content: center;
+}
+.footer__box{
+    margin: 139px 0px 201px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer__ul{
+    display: flex;
+
+
+}
+.footer__ul li{
+    color: #FFF;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+list-style: none;
+margin: 36px 30px;
+}
+.footer__text{
+    color: #FFF;
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
